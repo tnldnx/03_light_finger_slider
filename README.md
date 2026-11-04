@@ -31,7 +31,8 @@ D5는 PWM 출력을 지원하는 핀이므로 `analogWrite()` 함수를 사용�
 
 ### Fritzing 회로도
 
-![Fritzing 회로도](light_finger_slider_Fritzing.png)
+<img width="461" height="305" alt="light_finger_slider_Fritzing" src="https://github.com/user-attachments/assets/9d8c61fc-7190-4463-a100-f005fdc18197" />
+
 
 ## 4. 주요 구현 기능
 
@@ -108,25 +109,32 @@ if (strncmp(data, "PWM:", 4) == 0) {
 
 ### 실행 화면 1
 
-![실행 화면 1](demo_pic1.jpg)
+<img width="4284" height="5712" alt="demo_pic1" src="https://github.com/user-attachments/assets/0d9454e9-68ed-4762-b029-7830ae5fb7e2" />
+
 
 PWM 값: 232
 
 ### 실행 화면 2
 
-![실행 화면 2](demo_pic2.jpg)
+<img width="4284" height="5712" alt="demo_pic2" src="https://github.com/user-attachments/assets/3f27270f-df23-4566-aeb8-1e3dae49c54c" />
+
 
 PWM 값: 135
 
 ### 실행 화면 3
 
-![실행 화면 3](demo_pic3.jpg)
+<img width="4284" height="5712" alt="demo_pic3" src="https://github.com/user-attachments/assets/dfa0a889-f8a6-4264-b9e9-a36e878830be" />
+
 
 손가락 사이의 거리가 줄어들면 슬라이더와 PWM 값이 감소하고, 거리가 커지면 값이 증가한다.
 
 ### 시연 영상
 
-[LED 밝기 제어 시연 영상](light_finger_slider_video.mp4)
+
+
+https://github.com/user-attachments/assets/d53b4e2e-6933-4313-bed5-178d0440d0db
+
+
 
 ## 6. 제작 과정 및 고찰
 
